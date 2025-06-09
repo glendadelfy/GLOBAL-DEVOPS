@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\capacidademodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\capacidademodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\abrigoprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\abrigoprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\recurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\recurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\models\\abrigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\models\\abrigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\middelewares\\endpoints\\capacidadeabrigoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\middelewares\\endpoints\\capacidadeabrigoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\middelewares\\endpoints\\abrigoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\middelewares\\endpoints\\abrigoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\services\\abrigocapacidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\services\\abrigocapacidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\middelewares\\endpoints\\eventoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\middelewares\\endpoints\\eventoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|c:\\users\\glend\\source\\repos\\abrigoapiminimal\\abrigoapiminimal\\middelewares\\endpoints\\recursoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B38C774C-0453-470B-A7E3-A0248150E4DC}|AbrigoAPIMinimal\\AbrigoAPIMinimal.csproj|solutionrelative:abrigoapiminimal\\middelewares\\endpoints\\recursoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1183,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Recurso.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Recurso.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\Recurso.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Recurso.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\Recurso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:46:34.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Pessoa.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:46:33.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Evento.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:46:32.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AbrigoEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\AbrigoEndpoint.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\AbrigoEndpoint.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\AbrigoEndpoint.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\AbrigoEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:31:19.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbrigoPrediction.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\AbrigoPrediction.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\AbrigoPrediction.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\AbrigoPrediction.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\AbrigoPrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:20:34.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Abrigo.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Abrigo.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\Abrigo.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\Abrigo.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\Abrigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:13:41.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapacidadeModel.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\CapacidadeModel.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Models\\CapacidadeModel.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Models\\CapacidadeModel.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Models\\CapacidadeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:02:42.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AbrigoCapacidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Services\\AbrigoCapacidadeService.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Services\\AbrigoCapacidadeService.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Services\\AbrigoCapacidadeService.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Services\\AbrigoCapacidadeService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawDIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T21:55:43.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventoEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\EventoEndpoint.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\EventoEndpoint.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\EventoEndpoint.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\EventoEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T21:35:25.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CapacidadeAbrigoEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\CapacidadeAbrigoEndpoint.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\CapacidadeAbrigoEndpoint.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\CapacidadeAbrigoEndpoint.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\CapacidadeAbrigoEndpoint.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwDMAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T21:35:22.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecursoEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\RecursoEndpoint.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\RecursoEndpoint.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Middelewares\\Endpoints\\RecursoEndpoint.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Middelewares\\Endpoints\\RecursoEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T19:19:26.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Program.cs",
+              "RelativeDocumentMoniker": "AbrigoAPIMinimal\\Program.cs",
+              "ToolTip": "C:\\Users\\glend\\source\\repos\\AbrigoAPIMinimal\\AbrigoAPIMinimal\\Program.cs",
+              "RelativeToolTip": "AbrigoAPIMinimal\\Program.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T19:02:25.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 10,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

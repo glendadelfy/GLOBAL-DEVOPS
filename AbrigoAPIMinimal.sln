@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbrigoAPIMinimal", "AbrigoAPIMinimal\AbrigoAPIMinimal.csproj", "{B38C774C-0453-470B-A7E3-A0248150E4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbrigoAPITests", "AbrigoAPITests\AbrigoAPITests.csproj", "{DB4B819B-8B52-4B82-9E2F-BF6636F2DE50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B38C774C-0453-470B-A7E3-A0248150E4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38C774C-0453-470B-A7E3-A0248150E4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38C774C-0453-470B-A7E3-A0248150E4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38C774C-0453-470B-A7E3-A0248150E4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4B819B-8B52-4B82-9E2F-BF6636F2DE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4B819B-8B52-4B82-9E2F-BF6636F2DE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4B819B-8B52-4B82-9E2F-BF6636F2DE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4B819B-8B52-4B82-9E2F-BF6636F2DE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D3A3D0-EEF0-450C-90EF-E8D001BC03AE}
+	EndGlobalSection
+EndGlobal

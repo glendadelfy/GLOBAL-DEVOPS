@@ -1,0 +1,8 @@
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\bin\Debug\net8.0\CoverletSourceRootsMapping_AbrigoAPITests
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.csproj.AssemblyReference.cache
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.AssemblyInfoInputs.cache
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.AssemblyInfo.cs
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.csproj.CoreCompileInputs.cache
+C:\Users\glend\source\repos\AbrigoAPIMinimal\AbrigoAPITests\obj\Debug\net8.0\AbrigoAPITests.sourcelink.json

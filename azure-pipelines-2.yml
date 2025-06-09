@@ -1,0 +1,110 @@
+trigger:
+  branches:
+    include:
+      - main
+      - master
+      - release
+      - feature/*
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  projectName: abrigominimal
+  env: prod
+  location: eastus
+  resourceGroup: rg-$(projectName)-$(env)
+  servicePlan: plan-$(projectName)-$(env)
+  webAppName: api-$(projectName)-$(env)
+  acrName: acrabrigominimal
+  imageName: $(acrName).azurecr.io/$(projectName):$(Build.BuildId)
+
+stages:
+
+# 1️⃣ Infraestrutura: RG, Service Plan, ACR
+- stage: Infrastructure
+  displayName: "Provisionar Infraestrutura Azure"
+  jobs:
+    - job: Infra
+      displayName: "Criar RG, Service Plan e ACR"
+      steps:
+        - task: AzureCLI@2
+          displayName: "Registrar Container Registry"
+          inputs:
+            azureSubscription: 'MYSubscriptionAbrigoAPIMinimal'
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az provider register --namespace Microsoft.ContainerRegistry --wait
+
+        - task: AzureCLI@2
+          displayName: "Criar Resource Group e Service Plan"
+          inputs:
+            azureSubscription: 'MYSubscriptionAbrigoAPIMinimal'
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az group create --name $(resourceGroup) --location $(location)
+              az appservice plan create \
+                --name $(servicePlan) \
+                --resource-group $(resourceGroup) \
+                --is-linux \
+                --sku B1
+
+        - task: AzureCLI@2
+          displayName: "Criar Azure Container Registry"
+          inputs:
+            azureSubscription: 'MYSubscriptionAbrigoAPIMinimal'
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az acr create \
+                --name $(acrName) \
+                --resource-group $(resourceGroup) \
+                --sku Basic \
+                --admin-enabled true
+
+# 2️⃣ Build & Push Docker no ACR
+- stage: BuildPush
+  dependsOn: Infrastructure
+  displayName: "Build & Push Docker"
+  jobs:
+    - job: BuildPush
+      displayName: "Buildar e Enviar Docker Image"
+      steps:
+        - task: AzureCLI@2
+          displayName: "Login ACR, Build e Push Docker"
+          inputs:
+            azureSubscription: 'MYSubscriptionAbrigoAPIMinimal'
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az acr login --name $(acrName)
+              docker build -t $(imageName) -f AbrigoAPIMinimal/Dockerfile AbrigoAPIMinimal
+              docker push $(imageName)
+
+# 3️⃣ Deploy do WebApp Container
+- stage: DeployApp
+  dependsOn: BuildPush
+  displayName: "Deploy WebApp Docker"
+  jobs:
+    - job: Deploy
+      displayName: "Deployar/Atualizar WebApp"
+      steps:
+        - task: AzureCLI@2
+          displayName: "Criar/Atualizar WebApp (Container)"
+          inputs:
+            azureSubscription: 'MYSubscriptionAbrigoAPIMinimal'
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az webapp create \
+                --resource-group $(resourceGroup) \
+                --plan $(servicePlan) \
+                --name $(webAppName) \
+                --deployment-container-image-name $(imageName) \
+              || \
+              az webapp update \
+                --resource-group $(resourceGroup) \
+                --name $(webAppName) \
+                --set siteConfig.linuxFxVersion="DOCKER|$(imageName)"
