@@ -60,5 +60,78 @@ dotnet restore
 
 # Execute os testes no terminal
 dotnet test
+### 📌 Exemplos de Requisições JSON
+
+Mostra todos os abrigos disponiveis
+GET /abrigos/disponiveis
+
+Busca pelo ID
+GET /abrigos/buscar/19
+JSON
+{
+  "id": 19,
+  "nome": "Abrigo Esperança",
+  "localizacao": "Rua das Flores, 123 - São Paulo, SP",
+  "capacidade": 50,
+  "moradores": null
+}
+
+POST /abrigos/criar
+JSON
+{
+  "Id": 1,
+  "Nome": "Abrigo Esperança",
+  "Localizacao": "Rua das Flores, 123 - São Paulo, SP",
+  "Capacidade": 50,
+  "Moradores": [
+    {
+      "Id": 101,
+      "Nome": "Maria Souza",
+      "Idade": 35,
+      "Genero": "Feminino",
+      "NecessidadesEspeciais": false,
+      "AbrigoId": 1
+    },
+    {
+      "Id": 102,
+      "Nome": "Carlos Pereira",
+      "Idade": 42,
+      "Genero": "Masculino",
+      "NecessidadesEspeciais": true,
+      "AbrigoId": 1
+    }
+  ]
+}
+Atualiza pelo ID
+PUT /abrigos/atualizar/19
+{
+  "Id": 1,
+  "Nome": "Abrigo Esperança",
+  "Localizacao": "Rua das Flores, 123 - São Paulo, SP",
+  "Capacidade": 50,
+  "Moradores": [
+    {
+      "Id": 101,
+      "Nome": "Maria Souza",
+      "Idade": 35,
+      "Genero": "Feminino",
+      "NecessidadesEspeciais": false,
+      "AbrigoId": 1
+    },
+    {
+      "Id": 102,
+      "Nome": "Carlos Almeida",
+      "Idade": 42,
+      "Genero": "Masculino",
+      "NecessidadesEspeciais": true,
+      "AbrigoId": 1
+    }
+  ]
+}
+Deleta pelo ID
+DELETE /abrigos/deletar/15
+
+
+
 
 
